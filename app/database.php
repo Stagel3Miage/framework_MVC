@@ -9,7 +9,7 @@ $capsule->addConnection([
 	'host' => '127.0.0.1',
 	'username' => 'root',
 	'password' => 'toor',
-	'database' => 'website',
+	'database' => 'ARME_BD',
 	'charset' => 'utf8',
 	'collation' => 'utf8_unicode_ci',
 	'prefix' => ''
