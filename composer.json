@@ -1,0 +1,17 @@
+{
+    "name": "rado/framework_mvc",
+    "require": {
+        "illuminate/database": "^5.4"
+    },
+    "autoload": {
+        "classmap": [
+            "app/models"
+        ]
+    },
+    "authors": [
+        {
+            "name": "rado",
+            "email": "rkajy@hotmail.fr"
+        }
+    ]
+}
