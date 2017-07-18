@@ -1,10 +1,10 @@
 <?php
 
-class Home extends Controller
+class Project extends Controller
 {
   public function index($data = '')
   {
-      $this->view('home/index', ['name' => $data]);
+      $this->view('project/index', ['name' => $data]);
   }
 
 
@@ -13,7 +13,8 @@ class Home extends Controller
   			User::create([
   		    	'username' => $username,
       			'email' => $email
-  			]);*/
+  			]);
+        */
   }
   
 }

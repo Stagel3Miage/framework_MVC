@@ -8,7 +8,7 @@
                   <h4 class="modal-title">S'enregistrer</h4>
               </div>
               <div class="modal-body">
-              <form action = "../app/views/home/includes/ajouter_membre.php" method="POST" id="insert_form11" class="form-horizontal" >
+              <form action = "<?php echo CSS_PATH; ?>/ajouter_membre.php" method="POST" id="insert_form11" class="form-horizontal" >
                         <!-- sexe -->
                           <div class="form-group">
                             <label for="sexe" class="col-sm-2 control-label">Sexe:</label>

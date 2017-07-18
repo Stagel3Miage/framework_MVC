@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
 <head>
@@ -6,9 +7,10 @@
 	<meta name="description" content="">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="../app/views/home/includes/source/bootstrap-3.3.6-dist/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="../app/views/home/includes/source/font-awesome-4.5.0/css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="../app/views/home/includes/style/mystyle.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo CSS_PATH; ?>/source/bootstrap-3.3.6-dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo CSS_PATH; ?>/source/font-awesome-4.5.0/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href='<?php echo CSS_PATH; ?>/style/mystyle.css'>
+	
 </head>
 <body>
 <!-- Header -->
@@ -29,7 +31,7 @@
 
 	<!-- Navbar Up -->
 	<nav class="topnavbar navbar-default topnav">
-		<a class="logo" href="#"><img src="../app/views/home/includes/image_association/logo/arme_logo_4.png" alt="logo"></a>
+		<a class="logo" href="#"><img src="<?php echo CSS_PATH; ?>image_association/logo/arme_logo_4.png" alt="logo"></a>
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed toggle-costume" data-toggle="collapse" data-target="#upmenu" aria-expanded="false">
@@ -47,12 +49,13 @@
 				<!-- menu 1 -->
 				<li class="active"><a href="index.php">ACCEUIL</a> </li>
 				<li class="dropdown">
-					<a href="#" class="dropdown-toggle"	data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PROJET <span class="caret"></span></a>
-					<ul class="dropdown-menu dropdowncostume">
+				<!--a href="project.php" class="dropdown-toggle"	data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PROJET <span class="caret"></span></a-->
+					<a href="project/" class="active" >PROJET </a>
+					<!--ul class="dropdown-menu dropdowncostume">
 						<li><a href="#">Sport</a></li>
 						<li><a href="#">Old</a></li>
 						<li><a href="#">New</a></li>
-					</ul>
+					</ul-->
 				</li>
 				<li class="dropdown">
 					<!-- menu 2 -->
@@ -64,14 +67,13 @@
 						</ul>
 				</li>
 				<li>
-					<a href="#">PARTENARIAT</a>
+					<a href="partenaires/">PARTENARIAT</a>
 				</li>
 				<li>
-					<a href="xxxx.php">MEMBRES</a>
+					<a href="membres/">MEMBRES</a>
 				</li>
 			</ul>
 		</div>
 	</nav>
 </div>
-<?php include("carousel.php"); ?>
 <!-- fin header -->

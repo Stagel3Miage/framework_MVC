@@ -31,7 +31,7 @@ if(isset($_POST['submit']))
     $query .= " ) VALUES(";
     $query .= "  '{$nom}', '{$prenom}', '{$email}', '{$sexe}', '{$mdp}' ";
     $query .= ")";
-    echo $query;
+    //echo $query;
     $result = mysqli_query($connect, $query);
     echo '</br>';
     if($result)

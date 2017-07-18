@@ -4,7 +4,7 @@
 		<div class="carousel-inner " role="listbox">
 
 			<div class="item active">
-				<img src="../app/views/home/includes/image_association/paysage/notho4.jpg" alt="paysage1">
+				<img src="<?php echo CSS_PATH; ?>/image_association/paysage/notho4.jpg" alt="paysage1">
 				<div class="carousel-caption">
 					<h2>Paysage 1</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur ,<br>
@@ -13,7 +13,7 @@
 			</div>
 
 			<div class="item">
-				<img src="../app/views/home/includes/image_association/paysage/paysage3.jpg" alt="paysage3">
+				<img src="<?php echo CSS_PATH; ?>/image_association/paysage/paysage3.jpg" alt="paysage3">
 				<div class="carousel-caption">
 					<h2>Paysage 3</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur ,<br>

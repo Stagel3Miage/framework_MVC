@@ -14,6 +14,7 @@ class App
       if (file_exists('../app/controllers/' . $url[0] . '.php'))
       {
         $this->controller = $url[0];
+        //echo $this->controller;
         unset($url[0]);
       }
       else {
@@ -31,6 +32,7 @@ class App
           if(method_exists($this->controller, $url[1]))
           {
             $this->method = $url[1];
+            echo $this->method;
             unset($url[1]);
           }
       }
@@ -46,6 +48,7 @@ class App
   {
     if(isset($_GET['url']))
     {
+
       return $url = explode('/', filter_var(rtrim($_GET['url'], '/'), FILTER_SANITIZE_URL));
     }
   }

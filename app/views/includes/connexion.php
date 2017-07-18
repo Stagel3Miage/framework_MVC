@@ -11,7 +11,7 @@ if(isset($_POST['submit']))
     $query = "SELECT MAIL_U, MDP_U FROM utilisateur ";
     $query .= " WHERE MAIL_U = '{$mail}' AND MDP_U = '{$pwd}'";
     $query .= " LIMIT 1";
-    echo $query;
+    //echo $query;
     $result = mysqli_query($connect, $query);
     echo '</br>';
     $row = mysqli_fetch_array($result);

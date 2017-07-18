@@ -1,3 +1,4 @@
+
 <!-- ____________________Featured Section ACTUALITES______________________________-->
 <div class="allcontain">
 	<div class="feturedsection">
@@ -8,7 +9,7 @@
 			<div class="col-lg-6 costumcol colborder1">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img1colon">
-						<img class="img-responsive" src="../app/views/home/includes/image_association/actualites/bijoux.jpeg" alt="bijoux">
+						<img class="img-responsive" src="../app/views/includes/image_association/actualites/bijoux.jpeg" alt="bijoux">
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
 						<div class="featurecontant">
@@ -34,7 +35,7 @@
 			<div class="col-lg-6 costumcol colborder2">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img2colon">
-						<img class="img-responsive" src="../app/views/home/includes/image_association/actualites/don_membres.jpeg" alt="don_membres">
+						<img class="img-responsive" src="../app/views/includes/image_association/actualites/don_membres.jpeg" alt="don_membres">
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
 						<div class="featurecontant">
