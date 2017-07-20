@@ -1,7 +1,9 @@
 {
     "name": "rado/framework_mvc",
     "require": {
-        "illuminate/database": "^5.4"
+        "illuminate/database": "^5.4",
+        "phpoffice/phpexcel": "^1.8",
+        "phpclasses": ">=1.4"
     },
     "autoload": {
         "classmap": [

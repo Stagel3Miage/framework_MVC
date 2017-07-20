@@ -63,6 +63,13 @@ class ComposerStaticInitb1670ccafa1aa85f604e073eb02b1ad9
     );
 
     public static $prefixesPsr0 = array (
+        'P' => 
+        array (
+            'PHPExcel' => 
+            array (
+                0 => __DIR__ . '/..' . '/phpoffice/phpexcel/Classes',
+            ),
+        ),
         'D' => 
         array (
             'Doctrine\\Common\\Inflector\\' => 
@@ -73,6 +80,8 @@ class ComposerStaticInitb1670ccafa1aa85f604e073eb02b1ad9
     );
 
     public static $classMap = array (
+        'Partenaires' => __DIR__ . '/../..' . '/app/models/partenaires.php',
+        'Project' => __DIR__ . '/../..' . '/app/models/project.php',
         'User' => __DIR__ . '/../..' . '/app/models/User.php',
     );
 
