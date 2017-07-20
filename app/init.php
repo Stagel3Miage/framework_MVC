@@ -3,6 +3,8 @@
 
 //define('PATH_PUBLIC', 'http://localhost/siteweb/framework_MVC/public/');
 //define('PATH_VIEWS', 'http://localhost/siteweb/framework_MVC/app/views/');
+$conected = 1;
+
 // Composer autoloader
 require_once '../vendor/autoload.php';
 require_once 'database.php';

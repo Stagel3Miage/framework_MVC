@@ -20,6 +20,10 @@ if(isset($_POST['submit']))
     }
     else {
       echo "bienvenue membre";
+      $GLOBALS['conected'] = 1;
+
+      
+      //echo 'New val = ' . $conected;
     }
 }
 ?>

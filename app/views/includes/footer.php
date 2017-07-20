@@ -6,10 +6,12 @@
   </div>
   <ul class="nav nav-tabs bottomlinks">
     <li role="presentation" ><a href="#/" role="button">ACCEUIL</a></li>
+<?php //if($GLOBALS['conected'] == 1){?>
     <li role="presentation"><a href="#/">PROJET</a></li>
     <li role="presentation"><a href="#/">ARCHIVES</a></li>
     <li role="presentation"><a href="#/">PARTENARIAT</a></li>
     <li role="presentation"><a href="#/">MEMBRES</a></li> <!-- PARTENARIATS - ARCHIVES -->
+<?php// }?>
   </ul>
 
 <!-- ______________________________________________________Paragraphe ______________________________-->

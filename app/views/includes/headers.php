@@ -2,6 +2,8 @@
 define('CSS_PATH', 'http://localhost/siteweb/framework_MVC/app/views/includes/'); 
 define('PATH_PUBLIC', 'http://localhost/siteweb/framework_MVC/public/');
 define('PATH_VIEWS', 'http://localhost/siteweb/framework_MVC/app/views/'); 
+
+
 ?>
 
 <!doctype html>
@@ -56,6 +58,8 @@ define('PATH_VIEWS', 'http://localhost/siteweb/framework_MVC/app/views/');
 				<!-- menu 1 -->
 				<?php //echo PATH_VIEWS . 'home/' ; ?>
 				<li class="active"><a href="<?php echo PATH_PUBLIC;?>">ACCEUIL</a> </li>
+
+<?php //if($GLOBALS['conected'] == 1){?>
 				<li class="dropdown">
 				<!--a href="project.php" class="dropdown-toggle"	data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PROJET <span class="caret"></span></a-->
 					<a href="<?php echo PATH_VIEWS; ?>project/" class="active" >PROJET </a>
@@ -81,6 +85,12 @@ define('PATH_VIEWS', 'http://localhost/siteweb/framework_MVC/app/views/');
 				<li>
 					<a href="<?php echo PATH_VIEWS; ?>membres/">MEMBRES</a>
 				</li>
+<?php //}?>
+
+<?php
+// test de variable globale
+//$GLOBALS['conected'] = 1;
+?>
 			</ul>
 		</div>
 	</nav>

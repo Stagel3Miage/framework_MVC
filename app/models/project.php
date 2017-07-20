@@ -1,19 +1,18 @@
 <?php
 
+use Illuminate\Database\Eloquent\Model as Eloquent;
 
-
-class Project
+class Project extends Eloquent
 {
-  public static function project_infos()
-  {
-    return array
-    (
-                array('product'=>'Some product','price'=>23.99,'tax'=>12),
-                array('product'=>'Other product','price'=>5.25,'tax'=>2.25),
-                array('product'=>'Third product','price'=>0.20,'tax'=>3.5)
-     );
-  }
+  public $name;
 
+  public $timestamps = [];
 
-  
+  protected $fillable = ['NOM_PRO', 'REF_PRO', 'DUREE_PRO', 'DETEDEBUT_PRO', 'GESTINONAIRE_PRO', '	INITIATEUR_PRO'];
+
+/*
+duree : int;
+date : date;
+le reste : varchar
+*/  
 }

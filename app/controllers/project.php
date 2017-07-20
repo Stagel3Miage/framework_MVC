@@ -8,13 +8,17 @@ class Project extends Controller
   }
 
 
-  public function create($username ='', $email = ''){
-    /*
+  public function create($NOM_PRO ='', $REF_PRO = '', $DUREE_PRO = '', $DETEDEBUT_PRO = '', $GESTINONAIRE_PRO = '', $INITIATEUR_PRO = ''){
+    
   			User::create([
-  		    	'username' => $username,
-      			'email' => $email
+  		    	'NOM_PRO' => $NOM_PRO,
+      			'REF_PRO' => $REF_PRO,
+            'DUREE_PRO' => $DUREE_PRO,
+            'DETEDEBUT_PRO' => $DETEDEBUT_PRO,
+            'GESTINONAIRE_PRO' => $GESTINONAIRE_PRO,
+            'INITIATEUR_PRO' => $INITIATEUR_PRO
   			]);
-        */
+        
   }
   
 }
