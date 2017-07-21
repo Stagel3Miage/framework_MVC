@@ -2,6 +2,4 @@
 
 require_once '../app/init.php';
 
-App::doUrl();
-
-?>
+$app =new App;
