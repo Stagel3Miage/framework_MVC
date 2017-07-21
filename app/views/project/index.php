@@ -1,5 +1,6 @@
-
-<?php require_once("../app/views/includes/headers.php");?>
+<?php
+	$var = getcwd() . "/../app/views/includes/headers.php";
+	require_once($var);?>
 <?php require_once("project.php");?>
 <?php //echo getCwd();?>
 

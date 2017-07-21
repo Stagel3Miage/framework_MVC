@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html>
 <head>
@@ -50,7 +49,7 @@
 				<li class="active"><a href="index.php">ACCEUIL</a> </li>
 				<li class="dropdown">
 				<!--a href="project.php" class="dropdown-toggle"	data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PROJET <span class="caret"></span></a-->
-					<a href="project/" class="active" >PROJET </a>
+					<a href="/public/projects/" class="active" >PROJET </a>
 					<!--ul class="dropdown-menu dropdowncostume">
 						<li><a href="#">Sport</a></li>
 						<li><a href="#">Old</a></li>

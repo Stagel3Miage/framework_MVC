@@ -8,13 +8,22 @@ class App
 
   protected $params = [];
 
-  public function __construct()
+
+  /*public function __construct() {
+    $this->doUrl();
+  }*/
+
+  public static function doUrl()
   {
-      $url = $this->parseUrl();
+      $url = App::parseUrl();
+
+      echo " FILE = ". '../app/controllers/' . $url[0] . '.php';
+     
       if (file_exists('../app/controllers/' . $url[0] . '.php'))
       {
+        //echo "XXXXXXXXXXXXXXXXXXXXXXXx";
         $this->controller = $url[0];
-        //echo $this->controller;
+        echo " CONTROLLER = " . $this->controller;
         unset($url[0]);
       }
       else {
@@ -32,7 +41,7 @@ class App
           if(method_exists($this->controller, $url[1]))
           {
             $this->method = $url[1];
-            echo $this->method;
+            echo " METHOD= " . $this->method;
             unset($url[1]);
           }
       }
@@ -44,11 +53,12 @@ class App
   }
 
 
-  public function parseUrl()
+  public static function parseUrl()
   {
+
     if(isset($_GET['url']))
     {
-
+      echo filter_var(rtrim($_GET['url'], '/'), FILTER_SANITIZE_URL);
       return $url = explode('/', filter_var(rtrim($_GET['url'], '/'), FILTER_SANITIZE_URL));
     }
   }
