@@ -30,7 +30,12 @@
 								<h3 class="name">Partenaire 1</h3>
 								<p>"Lorem ipsum dolor sit amet, consectetur,<br>
 	 							sed do eiusmod tempor incididunt" </p>
-	 							<button>LIRE PLUS</button><br>
+	 							<button id="btnRM2" onClick="rmtxt()">LIRE PLUS</button><br>
+				 						<div id="readmore">
+						 						<h1>Vente de bijoux</h1>
+						 						<p>"Lorem ipsum </p>
+						 						<button id="btnRL">LIRE MOINS</button>
+						 				</div>
 							</div>
 							<div class="stars2">
 								<div class="glyphicon glyphicon-star"></div>

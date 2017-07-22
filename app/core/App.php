@@ -11,17 +11,17 @@ class App
   public function __construct()
   {
       $url = $this->parseUrl();
+      //echo 'resultats de parseUrl <br>';
+      //print_r($url);
+      //echo '<br>-------------';
       if (file_exists('../app/controllers/' . $url[0] . '.php'))
       {
         $this->controller = $url[0];
-        //echo $this->controller;
+        //echo 'Voici le controller :->' . $this->controller;
         unset($url[0]);
       }
-      else {
-        //echo "tsy mety";
-      }
-      require_once '../app/controllers/' . $this->controller . '.php';
 
+      require_once '../app/controllers/' . $this->controller . '.php';
 
 
       $this->controller = new $this->controller;
