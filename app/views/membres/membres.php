@@ -13,7 +13,7 @@
 	$chemin_photo = '';
 
 ?>
-
+<?php require_once("../app/views/includes/headers.php");?>
 <!-- ________________________NOS PARTENAIRES SECTION _______________________-->
 <div class="latestcars">
 	<h1 class="text-center">&bullet; NOS   MEMBRES &bullet;</h1>
@@ -48,9 +48,7 @@
 								<h3> <?php echo $date; ?> </h3>
 								<h3> <?php echo $lieu; ?> </h3>
 								<h3> <?php echo $adresse; ?> </h3>
-								<!--p>"Lorem ipsum dolor sit amet, consectetur,<br>
-	 							sed do eiusmod tempor incididunt" </p-->
-	 							<!--button>LIRE PLUS</button><br-->
+
 							</div>
 							<div class="stars2">
 								<div class="glyphicon glyphicon-star"></div>
@@ -231,5 +229,8 @@
 						</div>
 				</div>
 			</div>
+
 		</div>
 	</div>
+
+<?php require_once("../app/views/includes/footer.php");?>

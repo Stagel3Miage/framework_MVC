@@ -7,4 +7,9 @@ class Membres extends Controller
       $this->view('membres/index', ['name' => $data]);
   }
 
+  public function display($data = '')
+  {
+      $this->view('membres/membres', ['name' => $data]);
+  }
+
 }
