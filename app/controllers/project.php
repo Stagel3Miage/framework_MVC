@@ -4,10 +4,14 @@ class Project extends Controller
 {
   public function index($data = '')
   {
-      echo "<br>" . "UUUUU" . $_GET['url'] . "<br>";
       $this->view('project/index', []);
   }
 
+
+  public function project($data = '')
+  {
+     $this->view('project/project', []);
+  }
 /*
   public function create($username ='', $email = ''){
     

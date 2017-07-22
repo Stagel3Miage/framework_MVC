@@ -1,5 +1,7 @@
 <?php
 	$var = getcwd() . "/../app/views/includes/headers.php";
+		//$var = "../includes/headers.php";
+
 	require_once($var);?>
 <?php require_once("../app/views/includes/carousel.php");?>
 <?php require_once("../app/views/includes/actualites.php");?>

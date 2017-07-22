@@ -1,5 +1,5 @@
 <?php
 
 require_once '../app/init.php';
-
-$app =new App;
+global $app;
+$app =new App();

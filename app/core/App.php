@@ -32,7 +32,7 @@ class App
           if(method_exists($this->controller, $url[1]))
           {
             $this->method = $url[1];
-            echo $this->method;
+            //echo $this->method;
             unset($url[1]);
           }
       }

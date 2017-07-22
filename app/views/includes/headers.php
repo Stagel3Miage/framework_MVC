@@ -46,10 +46,13 @@
 		<div class="collapse navbar-collapse" id="upmenu">
 			<ul class="nav navbar-nav" id="navbarontop">
 				<!-- menu 1 -->
-				<li class="active"><a href="index.php">ACCEUIL</a> </li>
-				<li class="dropdown">
+         <?php //echo ' on se trouve dans ' . getcwd() . '..........'; ?>
+
+				<li class="active"><a href="/framework_MVC/public/home/">ACCEUIL</a> </li>
+				<li class="active"><!-- dropdown -->
 				<!--a href="project.php" class="dropdown-toggle"	data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PROJET <span class="caret"></span></a-->
-					<a href="/public/projects/" class="active" >PROJET </a>
+				<?php //echo ' on se trouve dans ' . getcwd() . '..........'?>
+					<a href="/framework_MVC/public/project/" class="active" >PROJET </a>
 					<!--ul class="dropdown-menu dropdowncostume">
 						<li><a href="#">Sport</a></li>
 						<li><a href="#">Old</a></li>
@@ -57,7 +60,6 @@
 					</ul-->
 				</li>
 				<li class="dropdown">
-					<!-- menu 2 -->
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ARCHIVES <span class="caret"></span></a>
 						<ul class="dropdown-menu dropdowncostume">
 							<li><a href="#">1</a></li>
@@ -66,10 +68,10 @@
 						</ul>
 				</li>
 				<li>
-					<a href="partenaires/">PARTENARIAT</a>
+					<a href="/framework_MVC/public/partenaires/">PARTENARIAT</a>
 				</li>
 				<li>
-					<a href="membres/">MEMBRES</a>
+					<a href="/framework_MVC/public/membres/">MEMBRES</a>
 				</li>
 			</ul>
 		</div>
