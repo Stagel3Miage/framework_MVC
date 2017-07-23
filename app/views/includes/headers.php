@@ -51,7 +51,6 @@
 				<li class="active"><a href="/framework_MVC/public/home/">ACCEUIL</a> </li>
 				<li class="active"><!-- dropdown -->
 				<!--a href="project.php" class="dropdown-toggle"	data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PROJET <span class="caret"></span></a-->
-				<?php //echo ' on se trouve dans ' . getcwd() . '..........'?>
 					<a href="/framework_MVC/public/project/" class="active" >PROJET </a>
 					<!--ul class="dropdown-menu dropdowncostume">
 						<li><a href="#">Sport</a></li>
@@ -70,8 +69,14 @@
 				<li>
 					<a href="/framework_MVC/public/partenaires/">PARTENARIAT</a>
 				</li>
-				<li>
-					<a href="/framework_MVC/public/membres/">MEMBRES</a>
+				<li class="dropdown">
+					<!--a href="/framework_MVC/public/membres/">MEMBRES</a-->
+					<a href="/framework_MVC/public/membres/" class="dropdown-toggle"	data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MEMBRES <span class="caret"></span></a>
+					<ul class="dropdown-menu dropdowncostume">
+						<li><a href="/framework_MVC/public/membres/display">Voir</a></li>
+						<li><a href="#">Ajouter</a></li>
+						<li><a href="#">Supprimer</a></li>
+					</ul>
 				</li>
 			</ul>
 		</div>

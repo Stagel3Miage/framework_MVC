@@ -9,7 +9,9 @@ class Membres extends Controller
 
   public function display($data = '')
   {
-      $this->view('membres/membres', ['name' => $data]);
+  		$this->model('Membresmodel');
+  		$data = Membresmodel::all();
+      $this->view('membres/membres', $data);
   }
 
 }
