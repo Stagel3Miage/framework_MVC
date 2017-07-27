@@ -4,52 +4,11 @@
 
 
 <style type="text/css">
-	p
-	{
-		color: red;
-	}
-/*
-  .toggler {
-    width: 500px;
-    height: 200px;
-  }
-  */
-
-  #button {
-    padding: .5em 1em;
-    text-decoration: none;
-  }
-  #effect {
-    position: relative;
-    width: 240px;
-    height: 170px;
-    padding: 0.4em;
-  }
-  #effect h3 {
-    margin: 0;
-    padding: 0.4em;
-    text-align: center;
-  }
-
 
 </style>
 
 
 <script type="text/javascript">
-
-
-	$(function (){
-		function runEffect(){
-			var effect = "blind";
-			var options = {};
-			$("#effect").toggle(effect,options,500);
-		};
-		$("#button").on("click", function(){
-			runEffect();
-		});
-	});
-
-
 
 
 </script>
