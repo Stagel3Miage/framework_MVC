@@ -1,3 +1,15 @@
+<?php
+global $connected;
+ $connected = false; 
+
+global $admin;
+ $admin = false;
+
+global $users;
+ $users = false;
+
+ ?>
+
 <!doctype html>
 <html>
 <head>
@@ -28,8 +40,26 @@
 	<div class="header">
 	
 			<ul class="logreg">
+			<?php if ($connected == false) { ?>
 				<li><a data-toggle="modal" data-target="#loginModal"> Se connecter </a> </li>
 				<li><a data-toggle="modal" data-target="#Registration" id="botModal"> S'enregistrer </a></li>
+			<?php 
+				}else{
+			?>
+			
+    		 	<form method="POST" action=''>
+					<input style="color: black;" type="SUBMIT" value="logout" name="use_button" value="something"> 
+				</form>
+				 <?php
+	    				if (isset($_POST['use_button']))
+	    				{
+	    					$connected = false;
+
+	    				}
+	    		 ?> 					
+			<?php
+				}
+			 ?>
 			</ul>
 	</div>
 

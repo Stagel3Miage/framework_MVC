@@ -2,90 +2,81 @@
 	$var = getcwd() . "/../app/views/includes/headers.php";
 	require_once($var);?>
 
-
 <style type="text/css">
+
+a { 
+    color: #8D0D19; 
+}
+a:hover { 
+    color: #1A446C; 
+}
+  
+#main { 
+  height: 600px; width: 100%; 
+  margin: 0; padding: 0; 
+  background: #EEE4B9;
+}
+
+#navigation { 
+    float: left;
+  width: 150px; 
+    height: 100%; 
+  margin: 0; 
+    padding: 0 2em; 
+  color: #D4E6F4; 
+    background: #8D0D19;
+}
+
+#navigation a { 
+    color: #D4E6F4; 
+    text-decoration: none; 
+}
+#navigation a:hover { 
+    color: #FFFFFF; 
+}
+
+ul.subjects { 
+  margin: 1em 0; 
+    padding-left: 0; 
+    list-style: none;
+    
+}
+
+.selected { 
+    font-weight: bold; 
+}
 
 </style>
 
+    <div id= "navigation">
+        <br/>
+            <!--a href="admin.php">&laquo; Main Menu</a-->
+        <ul class="subjects">
+              <li>
+                <a href="/framework_MVC/public/project/contenu_project">Projet 1</a>
+              </li>
 
-<script type="text/javascript">
+              <li>
+                <a href="#">Projet 2</a>
+              </li>
 
 
-</script>
+
+              <li>
+                <a href="#">Projet 3</a>
+              </li>
+        </ul>
+              <br/>
+        <!--a href="#">+ Add a project</a-->
+    </div>
+
+    <div id="page">
+                please select a project    
+    </div>
 
 
-<!-- Container (Pricing Section) -->
-<div class="container-fluid">
-  <div class="text-center">
-    <h2>Projets</h2>
-    <!--h4>Choose a payment plan that works for you</h4-->
-  </div>
 
-  <div class="row">
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Nom / avancement</h1>
-        </div>
-        <div class="panel-body">
-          <a href = "#">Projet 1	</a> 50% <br>
-          <a href = "#">Projet 2	</a> 36% <br>
-          <a href = "#">Projet 3	</a> 28% <br>
-          <a href = "#">Projet 4	</a> 90% <br>
-          <a href = "#">Projet 5	</a> 78% <br>
-          <a href = "#">Projet 6	</a> 90% <br>
-          <a href = "#">Projet 7	</a> 78% <br>
-          <a href = "#">Projet 8	</a> 78% <br>
-        </div>
-        <div class="panel-footer">
-          <h3>$19</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg" id="button" class="ui-state-default ui-corner-all" >Sign Up</button>
-        </div>
-      </div>      
-    </div>     
 
-    <div class="col-sm-4 col-xs-12 toggler ">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Pro</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>50</strong> Lorem</p>
-          <p><strong>25</strong> Ipsum</p>
-          <p><strong>10</strong> Dolor</p>
-          <p><strong>5</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
-        </div>
-        <div class="panel-footer">
-          <h3>$29</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg" id="button" class="ui-state-default ui-corner-all" >Sign Up</button>
-        </div>
-      </div>      
-    </div>    
-
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Premium</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>100</strong> Lorem</p>
-          <p><strong>50</strong> Ipsum</p>
-          <p><strong>25</strong> Dolor</p>
-          <p><strong>10</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
-        </div>
-        <div class="panel-footer">
-          <h3>$49</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Sign Up</button>
-        </div>
-      </div>      
-    </div>    
-  </div>
-</div>
-
+<br><br><br><br><br><br>
 
 <?php require_once("../app/views/includes/footer.php");?>

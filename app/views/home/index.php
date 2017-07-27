@@ -1,4 +1,5 @@
 <?php
+
 	$var = getcwd() . "/../app/views/includes/headers.php";
 		//$var = "../includes/headers.php";
 

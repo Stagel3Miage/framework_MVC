@@ -3,7 +3,7 @@ require_once("others_includes/db_connection.php");
 require_once("others_includes/functions.php");
 require_once("others_includes/validation_functions.php");
 require_once("others_includes/session.php");
-
+//define ('SITE_ROOT', realpath(dirname(__FILE__)));
 if(isset($_POST['submit']))
 {
     $mail = $_POST["email_connect"];
@@ -19,7 +19,16 @@ if(isset($_POST['submit']))
       echo "utilisateur non reconnu";
     }
     else {
-      echo "bienvenue membre";
+      echo "bienvenue membre<br>";
+      //$connected = true;
+      echo $_GLOBALS["connected"];
+      if ($connected == true) {
+          echo "connexion réussi";
+      }
+      else{
+          echo "échec de connexion";
+      }
+
     }
 }
 ?>

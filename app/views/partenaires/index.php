@@ -5,7 +5,7 @@
 <div class="container">
 
 	<div class="page-header">
-    	<h1 class="h2">Les partenaires</h1>
+  <h1 class="text-center" style="color: #020243; font-family:OpenSans-Light; font-size:41px ">• NOS PARTENAIRES •</h1>
     </div>
 
 <br />

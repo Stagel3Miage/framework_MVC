@@ -7,11 +7,11 @@ class Project extends Controller
       $this->view('project/index', []);
   }
 
-/*
-  public function project($data = '')
+
+  public function contenu_project($data = '')
   {
-     $this->view('project/project', []);
+     $this->view('project/contenu_project', []);
   }
-*/
+
   
 }
