@@ -7,19 +7,11 @@ class Project extends Controller
       $this->view('project/index', []);
   }
 
-
+/*
   public function project($data = '')
   {
      $this->view('project/project', []);
   }
-/*
-  public function create($username ='', $email = ''){
-    
-  			User::create([
-  		    	'username' => $username,
-      			'email' => $email
-  			]);
-        
-  }*/
+*/
   
 }
