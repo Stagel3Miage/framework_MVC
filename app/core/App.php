@@ -11,13 +11,9 @@ class App
   public function __construct()
   {
       $url = $this->parseUrl();
-      //echo 'resultats de parseUrl <br>';
-      //print_r($url);
-      //echo '<br>-------------';
       if (file_exists('../app/controllers/' . $url[0] . '.php'))
       {
         $this->controller = $url[0];
-        //echo 'Voici le controller :->' . $this->controller;
         unset($url[0]);
       }
 
@@ -32,7 +28,6 @@ class App
           if(method_exists($this->controller, $url[1]))
           {
             $this->method = $url[1];
-            //echo $this->method;
             unset($url[1]);
           }
       }

@@ -730,7 +730,7 @@ font-weight: bold;
 	font-size: 41px;
 	padding-top: 46px;
 	padding-bottom: 50px;
-	color: #020243;
+	color: #5656C6;
 }
 
 .carstxt{
@@ -822,15 +822,15 @@ font-weight: bold;
 .featurecontant>h2{
 	font-family: "OpenSans Regular";
 	font-size: 12.41pt;
-	color: #020243;
+	color: #5656C6;
 	text-align: center;
 	letter-spacing: 8px;
 	margin-top: 36%;
 	margin-bottom: 19px;
 }
 .featurecontant>button{
-	background: #020243;
-	border: 1px solid #020243;
+	background: #5656C6;
+	border: 1px solid #5656C6;
 	font-family: "OpenSans Regular";
 	font-size: 19px;
 	color:#fff;
@@ -846,9 +846,9 @@ font-weight: bold;
     -o-transition: all .3s ease-in;
     -webkit-transition: all .3s ease-in;
     transition: all .2s ease-in;
-	border: 1px solid #020243;
+	border: 1px solid #5656C6;
 	background: none;
-	color: #020243;
+	color: #5656C6;
 }
 
 
@@ -886,10 +886,10 @@ font-weight: bold;
 }
 #readmore>button{
 	background: none;
-	border: 1px solid #020243;
+	border: 1px solid #5656C6;
 	font-family: "OpenSans Regular";
 	font-size: 19px;
-	color:#020243;
+	color:#5656C6;
 	letter-spacing: 5px;
 	width: 70%;
 	margin-left: 17%;
@@ -898,7 +898,7 @@ font-weight: bold;
 	padding-bottom: 15px;
 }
 #readmore>button:hover{
-	background: #020243;
+	background: #5656C6;
 	color: #fff;
 	-moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
@@ -930,10 +930,10 @@ font-weight: bold;
 }
 #readmore2>button{
 	background: none;
-	border: 1px solid #020243;
+	border: 1px solid #5656C6;
 	font-family: "OpenSans Regular";
 	font-size: 19px;
-	color:#020243;
+	color:#5656C6;
 	letter-spacing: 5px;
 	width: 68%;
 	margin-left: 17%;
@@ -942,7 +942,7 @@ font-weight: bold;
 	padding-bottom: 15px;
 }
 #readmore2>button:hover{
-	background: #020243;
+	background: #5656C6;
 	color: #fff;
 	-moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
@@ -1031,7 +1031,7 @@ margin-left: auto;
 	letter-spacing: 10px;
 	padding-top: 66px;
 	padding-bottom: 70px;
-	color: #020243;
+	color: #5656C6;
 }
 .sortby{
 	font-family: "OpenSans Regular";
@@ -1717,7 +1717,7 @@ height: 245px;
 */
 /**************/
 .footer-distributed{
-	background-color: #292c2f;
+	background-color: #5656C6;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
@@ -1888,4 +1888,19 @@ height: 245px;
 #dateRangeForm .form-control-feedback {
     top: 0;
     right: -15px;
+}
+
+#facebook:hover{
+	background-color:rgb(59,89,152);
+}
+
+#twitter:hover{
+	background-color:rgb(14,177,246);
+}
+
+#linkedin:hover{
+	background-color:rgb(22,112,185);
+}
+
+#git:hover{
 }

@@ -1,4 +1,5 @@
 <?php
+
 require_once("others_includes/db_connection.php");
 require_once("others_includes/functions.php");
 require_once("others_includes/validation_functions.php");
@@ -16,11 +17,13 @@ if(isset($_POST['submit']))
     $row = mysqli_fetch_array($result);
     if ($row[0]==null) {
       echo "utilisateur non reconnu";
-      redirect_to("../../../public/home/");
+      $_SESSION["user_connected"] = 0;
+      //redirect_to("../../../public/home/");
     }
     else {
-      $_SESSION["user_connected"] = "true";
-      //echo "------->". $_SESSION["user_connected"] . ".<br>";  
+
+      $_SESSION["user_connected"] = 1;
+      echo '------>' . $_SESSION["user_connected"] ;
       redirect_to("../../../public/home/");
     }
 }

@@ -46,11 +46,16 @@
 
 ?>
 <?php //require_once("../app/views/includes/headers.php");
-	$var = getcwd() . "/../app/views/includes/headers.php";
-	if ($_SESSION["user_connected"] == true){
-    	$var = getcwd() . "/../app/views/includes/headers_connected.php";
-  	}
+ 	if (!isset($_SESSION["user_connected"]))
+    {
 
+ 	    $var = getcwd() . "/../app/views/includes/headers.php";
+    }
+    else if (isset($_SESSION["user_connected"]) && $_SESSION["user_connected"] == 1 ){
+    	$var = getcwd() . "/../app/views/includes/headers_connected.php";
+    	$_SESSION["user_connected"] = 1;
+      
+    }
   	require_once($var);
  echo displayUsers($data);
 ?>

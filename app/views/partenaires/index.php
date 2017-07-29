@@ -1,15 +1,21 @@
 <?php
-	$var = getcwd() . "/../app/views/includes/headers.php";
-  if ($_SESSION["user_connected"] == true){
-      $var = getcwd() . "/../app/views/includes/headers_connected.php";
-  }
+  if (!isset($_SESSION["user_connected"]))
+    {
 
-	require_once($var);?>
+      $var = getcwd() . "/../app/views/includes/headers.php";
+    }
+    else if (isset($_SESSION["user_connected"]) && $_SESSION["user_connected"] == 1 ){
+      $var = getcwd() . "/../app/views/includes/headers_connected.php";
+      $_SESSION["user_connected"] = 1;
+      
+    }
+    require_once($var);
+?>
 
 <div class="container">
 
 	<div class="page-header">
-  <h1 class="text-center" style="color: #020243; font-family:OpenSans-Light; font-size:41px ">• NOS PARTENAIRES •</h1>
+  <h1 class="text-center" style="color: #5656C6; font-family:OpenSans-Light; font-size:41px ">• NOS PARTENAIRES •</h1>
     </div>
 
 <br />

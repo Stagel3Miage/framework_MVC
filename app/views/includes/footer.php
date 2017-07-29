@@ -48,10 +48,10 @@
 
 				<div class="footer-icons">
 
-					<a href="#"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-					<a href="#"><i class="fa fa-github"></i></a>
+					<a id="facebook" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+					<a id="twitter" href="https://twitter.com/?lang=fr"><i class="fa fa-twitter"></i></a>
+					<a id="linkedin" href="https://fr.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+					<a id="git" href="https://github.com/"><i class="fa fa-github"></i></a>
 
 				</div>
 
@@ -72,7 +72,7 @@ if (isset($connect))
 <script type="text/javascript" src="<?php echo CSS_PATH; ?>/source/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
 
 
-<script type="text/javascript" src="<?php echo CSS_PATH; ?>/source/js/myscript.js"></script>
+<!--script type="text/javascript" src="<?php echo CSS_PATH; ?>/source/js/myscript.js"></script-->
 
 <!-- Include Date Range Picker -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
