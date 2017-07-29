@@ -8,7 +8,7 @@
                   <h4 class="modal-title">Se connecter</h4>
               </div>
               <div class="modal-body">
-                  <form action = "<?php echo CSS_PATH; ?>/connexion.php" method="POST" class="form-horizontal">
+                  <form action = "<?php echo CSS_PATH; ?>connexion.php" method="POST" class="form-horizontal">
                             <!-- Email -->
                             <div class="form-group">
                               <label for="Email" class="col-sm-2 control-label">Email:</label>

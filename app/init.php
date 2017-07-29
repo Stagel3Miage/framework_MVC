@@ -1,4 +1,11 @@
 <?php
+// Start the session
+session_start();
+$_SESSION["user_connected"] = "false";
+?>
+
+
+<?php
 
 // Composer autoloader
 require_once('core/utils.php');

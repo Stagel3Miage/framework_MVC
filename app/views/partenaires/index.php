@@ -1,5 +1,9 @@
 <?php
 	$var = getcwd() . "/../app/views/includes/headers.php";
+  if ($_SESSION["user_connected"] == true){
+      $var = getcwd() . "/../app/views/includes/headers_connected.php";
+  }
+
 	require_once($var);?>
 
 <div class="container">

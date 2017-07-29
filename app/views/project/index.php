@@ -1,5 +1,11 @@
 <?php
 	$var = getcwd() . "/../app/views/includes/headers.php";
+//echo '------>' . $_SESSION["user_connected"];
+
+  if ($_SESSION["user_connected"] == true){
+    $var = getcwd() . "/../app/views/includes/headers_connected.php";
+    //echo 'test header OK!!! ';
+  }
 	require_once($var);?>
 
 <style type="text/css">

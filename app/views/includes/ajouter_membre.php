@@ -39,12 +39,14 @@ if(isset($_POST['submit']))
         $_SESSION["message"]="Subject created";
        $output .= '<label class="text-success">Membre crée</label>';
            echo $output;
+           redirect_to("../../../../public/home/");
 
     }
     else {
        $output .= 'erreur création membre dans la bdd';
            echo $output;
            //redirect_to("index.php");
+           redirect_to("../../../../public/home/");
     }
     //echo $output;
 }

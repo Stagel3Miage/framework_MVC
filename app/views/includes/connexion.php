@@ -11,24 +11,17 @@ if(isset($_POST['submit']))
     $query = "SELECT MAIL_U, MDP_U FROM utilisateur ";
     $query .= " WHERE MAIL_U = '{$mail}' AND MDP_U = '{$pwd}'";
     $query .= " LIMIT 1";
-    //echo $query;
     $result = mysqli_query($connect, $query);
     echo '</br>';
     $row = mysqli_fetch_array($result);
     if ($row[0]==null) {
       echo "utilisateur non reconnu";
+      redirect_to("../../../public/home/");
     }
     else {
-      echo "bienvenue membre<br>";
-      //$connected = true;
-      echo $_GLOBALS["connected"];
-      if ($connected == true) {
-          echo "connexion réussi";
-      }
-      else{
-          echo "échec de connexion";
-      }
-
+      $_SESSION["user_connected"] = "true";
+      //echo "------->". $_SESSION["user_connected"] . ".<br>";  
+      redirect_to("../../../public/home/");
     }
 }
 ?>

@@ -45,7 +45,13 @@
 	}
 
 ?>
-<?php require_once("../app/views/includes/headers.php");
+<?php //require_once("../app/views/includes/headers.php");
+	$var = getcwd() . "/../app/views/includes/headers.php";
+	if ($_SESSION["user_connected"] == true){
+    	$var = getcwd() . "/../app/views/includes/headers_connected.php";
+  	}
+
+  	require_once($var);
  echo displayUsers($data);
 ?>
 

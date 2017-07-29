@@ -1,5 +1,5 @@
 <?php
-
+// utile pour eloquent de composer
 use Illuminate\Database\Capsule\Manager as Capsule;
 
 $capsule = new Capsule();

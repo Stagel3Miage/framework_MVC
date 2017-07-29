@@ -1,14 +1,3 @@
-<?php
-global $connected;
- $connected = false; 
-
-global $admin;
- $admin = false;
-
-global $users;
- $users = false;
-
- ?>
 
 <!doctype html>
 <html>
@@ -30,7 +19,7 @@ global $users;
 	<link rel="stylesheet" href="<?php echo CSS_PATH; ?>/source/bootstrap-datepicker/css/bootstrap-datepicker.css">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
-  <link rel="stylesheet" href="/resources/demos/style.css">
+  <!--link rel="stylesheet" href="/resources/demos/style.css"-->
 
 
 </head>
@@ -40,26 +29,8 @@ global $users;
 	<div class="header">
 	
 			<ul class="logreg">
-			<?php if ($connected == false) { ?>
 				<li><a data-toggle="modal" data-target="#loginModal"> Se connecter </a> </li>
 				<li><a data-toggle="modal" data-target="#Registration" id="botModal"> S'enregistrer </a></li>
-			<?php 
-				}else{
-			?>
-			
-    		 	<form method="POST" action=''>
-					<input style="color: black;" type="SUBMIT" value="logout" name="use_button" value="something"> 
-				</form>
-				 <?php
-	    				if (isset($_POST['use_button']))
-	    				{
-	    					$connected = false;
-
-	    				}
-	    		 ?> 					
-			<?php
-				}
-			 ?>
 			</ul>
 	</div>
 
