@@ -42,14 +42,60 @@
                               </div>
                           </div>
                           <!-- date de naissance -->
-             
-                      <!--div class="form-group">
-                          <label for="deban" class="control-label">Né(e) le:</label>
-                          <div class="input-group date fj-date " id="modal-date">
-                              <input type="text" class="form-control"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+                            <div class="form-group ">
+                              <label class="control-label col-sm-2 requiredField" for="date">
+                               Né(e) le
+                               <span class="asteriskField">
+                                :
+                               </span>
+                              </label>
+                              <div class="col-sm-6 col-sm-push-1">
+                               <div class="input-group">
+                                <div class="input-group-addon">
+                                 <i class="fa fa-calendar">
+                                 </i>
+                                </div>
+                                <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text"/>
+                               </div>
+                              </div>
+                           </div>
+                          <!-- Lieu de naissance -->
+                          <div class="form-group">
+                              <label for="prénom" class="col-sm-2 control-label">à:</label>
+                              <div class="col-sm-6 col-sm-push-1">
+                                  <input type="text" class="form-control" id="LieuN" name="LieuN" placeholder="Lieu de naissance" aria-hidden="true">
+                              </div>
                           </div>
-                      </div-->
+                          <!-- Rue -->
+                          <div class="form-group">
+                              <label for="rue" class="col-sm-2 control-label">Rue:</label>
+                              <div class="col-sm-6 col-sm-push-1">
+                                  <input type="text" class="form-control" id="rue" name="Rue" placeholder="23 rue Corot" aria-hidden="true">
+                              </div>
+                          </div>
+                          <!-- code postal -->
+                          <div class="form-group">
+                              <label for="cp" class="col-sm-2 control-label">Code postal:</label>
+                              <div class="col-sm-6 col-sm-push-1">
+                                  <input type="text" class="form-control" id="cp" name="cp" placeholder="95000" aria-hidden="true" required="">
+                              </div>
+                          </div>
+                          <!-- Ville -->
+                          <div class="form-group">
+                              <label for="ville" class="col-sm-2 control-label">Ville:</label>
+                              <div class="col-sm-6 col-sm-push-1">
+                                  <input type="text" class="form-control" id="rue" name="Ville" placeholder="Cergy" aria-hidden="true">
+                              </div>
+                          </div>
+                          <!-- photos -->
 
+                          <!-- Login -->
+                          <div class="form-group">
+                              <label for="rue" class="col-sm-2 control-label">Login:</label>
+                              <div class="col-sm-6 col-sm-push-1">
+                                  <input type="text" class="form-control" id="login" name="login" placeholder="Email" aria-hidden="true">
+                              </div>
+                          </div>
                           <!-- mdp -->
                           <div class="form-group">
                             <label for="motdepasse" class="col-sm-2 control-label">Mot de passe:</label>
@@ -65,28 +111,12 @@
                               </div>
                            </div>
 
-                           <div class="form-group ">
-                              <label class="control-label col-sm-2 requiredField" for="date">
-                               Date
-                               <span class="asteriskField">
-                                *
-                               </span>
-                              </label>
-                              <div class="col-sm-10">
-                               <div class="input-group">
-                                <div class="input-group-addon">
-                                 <i class="fa fa-calendar">
-                                 </i>
-                                </div>
-                                <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text"/>
-                               </div>
-                              </div>
-                           </div>
+ 
                            <!-- s'enregistrer -->
                           <div class="modal-footer">
                               <!-- Enregistrer -->
                               <div class=" col-sm-1 col-sm-push-2">
-                                  <input type="submit" class="btn btn-primary" name="submit" value ="save"/>
+                                  <input type="submit" class="btn btn-primary" name="submit" value ="Enregistrer"/>
                               </div>
                               <!-- quitter -->
                               <div class=" col-sm-1 col-sm-push-5">

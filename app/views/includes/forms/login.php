@@ -35,7 +35,7 @@
                             <!-- boutton connexion et quitter -->
                             <div class="modal-footer">
                                     <div class=" col-sm-1 col-sm-push-2">
-                                        <input type="submit" class="btn btn-primary" name="submit" value ="connexion"/>
+                                        <input type="submit" class="btn btn-primary" name="submit" value ="Connexion"/>
                                     </div>
                                     <div class=" col-sm-2 col-sm-push-7">
                                       <button type="button" type="submit" class="btn btn-default btn--sm" data-dismiss="modal">Quitter</button>

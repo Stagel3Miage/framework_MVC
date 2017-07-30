@@ -2,8 +2,10 @@
 
 			<div class="footer-left">
 
-				<h3>AR<span>ME</span></h3>
+				<!--h3>AR<span>ME</span></h3-->
+		<a class="logo img-responsive" href="#"><img src="<?php echo CSS_PATH; ?>image_association/logo/arme_logo_4.png" alt="logo"></a>
 
+		
 				<!--p class="footer-links">
 					<a href="#">Home</a>
 					·
@@ -51,10 +53,14 @@
 					<a id="facebook" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
 					<a id="twitter" href="https://twitter.com/?lang=fr"><i class="fa fa-twitter"></i></a>
 					<a id="linkedin" href="https://fr.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-					<a id="git" href="https://github.com/"><i class="fa fa-github"></i></a>
+					<a id="google" href="https://www.google.fr"><i class="fa fa-google"></i></a>
 
 				</div>
 
+			</div>
+			
+			<div class="footer">
+						<div class="copyright">&copy; Copyright 2017 ARME</div>
 			</div>
 
 		</footer>
@@ -72,7 +78,7 @@ if (isset($connect))
 <script type="text/javascript" src="<?php echo CSS_PATH; ?>/source/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
 
 
-<!--script type="text/javascript" src="<?php echo CSS_PATH; ?>/source/js/myscript.js"></script-->
+<script type="text/javascript" src="<?php echo CSS_PATH; ?>/source/js/myscript.js"></script>
 
 <!-- Include Date Range Picker -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
@@ -90,9 +96,6 @@ if (isset($connect))
 		})
 	})
 </script>
-
-<!--script src="https://code.jquery.com/jquery-1.12.4.js"></script-->
-<!--script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script-->
 
 
 </body>

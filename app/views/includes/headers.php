@@ -7,9 +7,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<!--script src="<?php //echo CSS_PATH; ?>source/bootstrap-datepicker/jquery_v3.js" charset="utf-8"></script-->
-
-
 	<link rel="stylesheet" type="text/css" href="<?php echo CSS_PATH; ?>/source/bootstrap-3.3.6-dist/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo CSS_PATH; ?>/source/font-awesome-4.5.0/css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href='<?php echo CSS_PATH; ?>/style/mystyle.css'>
@@ -42,7 +39,7 @@
 
 	<!-- Navbar Up -->
 	<nav class="topnavbar navbar-default topnav">
-		<a class="logo" href="#"><img src="<?php echo CSS_PATH; ?>image_association/logo/arme_logo_4.png" alt="logo"></a>
+		<a class="logo" href="/framework_MVC/public/home/"><img src="<?php echo CSS_PATH; ?>image_association/logo/arme_logo_4.png" alt="logo"></a>
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed toggle-costume" data-toggle="collapse" data-target="#upmenu" aria-expanded="false">
