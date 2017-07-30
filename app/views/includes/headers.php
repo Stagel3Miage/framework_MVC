@@ -52,44 +52,7 @@
 
 			</div>
 		</div>
-		<div class="collapse navbar-collapse" id="upmenu">
-			<ul class="nav navbar-nav" id="navbarontop">
-				<!-- menu 1 -->
 
-				<li class="active"><a href="/framework_MVC/public/home/">ACCEUIL</a> </li>
-				<li class="active"><!-- dropdown -->
-				<!--a href="project.php" class="dropdown-toggle"	data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PROJET <span class="caret"></span></a-->
-					<a href="/framework_MVC/public/project/" >PROJET </a>
-					<!--ul class="dropdown-menu dropdowncostume">
-						<li><a href="#">Sport</a></li>
-						<li><a href="#">Old</a></li>
-						<li><a href="#">New</a></li>
-					</ul-->
-				</li>
-				<li class="active">
-						<!--a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ARCHIVES <span class="caret"></span></a-->
-						<a href="/framework_MVC/public/construction/" class="active" >ARCHIVES </a>
-						<!--ul class="dropdown-menu dropdowncostume">
-							<li><a href="#">1</a></li>
-							<li><a href="#">2</a></li>
-							<li><a href="3">3</a></li>
-						</ul-->
-				</li>
-				<li>
-					<a href="/framework_MVC/public/partenaires/">PARTENARIAT</a>
-				</li>
-				<li class="active"><!--dropdown-->
-					<a href="/framework_MVC/public/membres/display">MEMBRES</a>
-					<!--a href="/framework_MVC/public/membres/" class="dropdown-toggle"	data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MEMBRES <span class="caret"></span></a-->
-					<!--ul class="dropdown-menu dropdowncostume">
-						<li><a href="/framework_MVC/public/membres/display">Voir</a></li>
-						<li><a href="#">Ajouter</a></li>
-						<li><a href="#">Supprimer</a></li>
-					</ul-->
-				</li>
-			</ul>
-		</div>
 	</nav>
 </div>
 <!-- fin header -->
-<hr>

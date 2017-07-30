@@ -1890,20 +1890,24 @@ height: 0px;
     right: -15px;
 }
 
-#facebook:hover{
+#facebook{
 	background-color:rgb(59,89,152);
 }
 
-#twitter:hover{
+#twitter{
 	background-color:rgb(14,177,246);
 }
 
-#linkedin:hover{
+#linkedin{
 	background-color:rgb(22,112,185);
 }
 
-#google:hover{
+#google{
 	background-color:rgb(227,48,22);
+}
+
+#google:hover, #linkedin:hover, #twitter:hover, #facebook:hover{
+	background-color: black;
 }
 
 /*menu project*/

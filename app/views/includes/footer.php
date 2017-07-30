@@ -3,7 +3,7 @@
 			<div class="footer-left">
 
 				<!--h3>AR<span>ME</span></h3-->
-		<a class="logo img-responsive" href="#"><img src="<?php echo CSS_PATH; ?>image_association/logo/arme_logo_4.png" alt="logo"></a>
+		<a class="logo img-responsive" href="#"><img src="<?php echo CSS_PATH; ?>image_association/logo/arme_logo_4.gif" alt="logo"></a>
 
 		
 				<!--p class="footer-links">
