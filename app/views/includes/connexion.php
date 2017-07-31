@@ -18,15 +18,12 @@ if(isset($_POST['submit']))
     if ($row[0]==null) {
       echo "utilisateur non reconnu";
       $_SESSION["user_connected"] = 0;
+
       redirect_to("../../../public/home/");
     }
     else {
 
       $_SESSION["user_connected"] = 1;
-      echo '------>' . $_SESSION["user_connected"] ;
-      
-      echo '----->>' . getcwd() ;
-
       redirect_to("../../../public/home/");
     }
 }

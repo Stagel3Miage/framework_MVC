@@ -11,6 +11,4 @@ class Partenaires extends Controller
   {
       $this->view('partenaires/affiche_partenaire', ['name' => $data]);
   }
-
-
 }
